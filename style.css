@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    text-align: center;
+}
+
+.tribute{
+  display: grid;
+  grid-template-columns:2fr 1cm;
+      max-width:70rem;
+      background: white;
+      color: black;
+      margin-right: 28%;
+}
+
+.tribute blockquote{
+    font-size: 50px;
+}
+
+.tribute img{
+  width: 400px;
+}
+
+.bio{
+  margin-left: 25%;
+  max-width: 40rem;
+}
